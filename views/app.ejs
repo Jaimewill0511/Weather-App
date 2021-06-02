@@ -1,0 +1,34 @@
+<%- include("header")-%>
+
+<body class="text-center">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand head">Weather App☀</h3>
+        <%# <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav> %>
+      </div>
+    </header>
+
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading">Check your Local Weather</h1>
+      <p class="lead">Weather app is a website that presents OFFICIAL weather observations, weather forecasts and climatological information for selected cities supplied by National Meteorological & Hydrological Services (NMHSs) worldwide.The NMHSs
+        make official weather observations in their respective countries. Links to their official weather service websites and tourism board/organization are also provided whenever available.</p>
+
+      <iframe src="https://giphy.com/embed/3og0IOUWB5AZoP6la0" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <p><a href="https://giphy.com/gifs/happy-rain-weather-3og0IOUWB5AZoP6la0"></a></p>
+
+      <div class="position">
+        <form class="item" action="/" method="post">
+          <input type="text" name="input" value="" autocomplete="off" placeholder="Enter city name">
+          <button class="btn btn-info" type="submit" name="button">Check</button>
+        </form>
+      </div>
+
+
+
+    </main>
+    <%- include("footer")-%>
