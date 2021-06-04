@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to weatherapp 👋</h1>
+<h1 align="center">Welcome to Weather app 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/weatherapp" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/weatherapp.svg">
@@ -12,17 +12,8 @@
 
 ### 🏠 [Homepage](https://ancient-tor-00413.herokuapp.com/)
 
-## Install
-
-```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+## API used
+https://openweathermap.org/api
 
 ## Author
 
